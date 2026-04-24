@@ -1,0 +1,39 @@
+# ── LaTeX build artifacts ──────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+_minted-*/
+
+# ── Python environment ─────────────────────────────────────────
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── PDF source files (copyright — store locally, not in repo) ──
+ref/*.pdf
+
+# ── OCR temp files ─────────────────────────────────────────────
+/tmp/*.ocr.pdf
+/tmp/*.txt
+
+# ── macOS system files ─────────────────────────────────────────
+.DS_Store
+
+# ── VSCode workspace settings (keep extensions.json, ignore personal) ──
+.vscode/settings.json
+.vscode/launch.json
+!.vscode/extensions.json

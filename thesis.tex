@@ -1,0 +1,200 @@
+% ============================================================
+%  thesis.tex — Main thesis file
+%  Adapt this template to your institution's requirements.
+%  See AGENTS.md for the workflow rules before editing.
+% ============================================================
+
+\documentclass[12pt, a4paper]{report}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{graphicx}
+\usepackage{booktabs}       % professional tables
+\usepackage{hyperref}       % clickable references
+\usepackage{cleveref}       % \cref{} instead of Figure~\ref{}
+\usepackage{natbib}         % author-year citations; swap for biblatex if needed
+\usepackage{amsmath, amssymb}
+\usepackage{lipsum}         % placeholder text — remove before submission
+
+% --- Metadata ---
+\title{[Your Thesis Title]}
+\author{[Your Name]}
+\date{[Month Year]}
+
+% ============================================================
+\begin{document}
+
+\maketitle
+\tableofcontents
+\listoffigures
+\listoftables
+
+% ============================================================
+\begin{abstract}
+[To be completed — write the abstract last.]
+\end{abstract}
+
+% ============================================================
+\chapter{Introduction}
+\label{ch:introduction}
+
+% Problem statement
+[To be completed — describe the problem and its significance.]
+
+% Research questions
+\section{Research Questions}
+\label{sec:rq}
+
+The main research question of this thesis is:
+
+\begin{quote}
+\textbf{RQ-Main:} [Your main research question]
+\end{quote}
+
+This is addressed through two sub-questions:
+
+\begin{quote}
+\textbf{RQ-1:} [First sub-question]\\
+\textbf{RQ-2:} [Second sub-question]
+\end{quote}
+
+\section{Contributions}
+\label{sec:contributions}
+
+The main contributions of this thesis are:
+
+\begin{enumerate}
+    \item [Contribution 1]
+    \item [Contribution 2]
+    \item [Contribution 3]
+\end{enumerate}
+
+\section{Thesis Structure}
+\label{sec:structure}
+
+[To be completed — one sentence per chapter describing what each covers.]
+
+\section{Delimitations}
+\label{sec:delimitations}
+
+[To be completed — what this thesis explicitly does not cover and why.]
+
+% ============================================================
+\chapter{Background and Related Work}
+\label{ch:background}
+
+\section{Technical Background}
+\label{sec:background}
+
+[To be completed]
+
+\section{Related Work}
+\label{sec:related}
+
+[To be completed]
+
+\section{Research Gaps}
+\label{sec:gaps}
+
+Based on the literature, three gaps motivate this thesis:
+
+\begin{enumerate}
+    \item \textbf{Gap 1} — [description] (aligned with RQ-1)
+    \item \textbf{Gap 2} — [description] (aligned with RQ-2)
+    \item \textbf{Gap 3} — [description] (aligned with RQ-Main)
+\end{enumerate}
+
+% ============================================================
+\chapter{Methodology}
+\label{ch:methodology}
+
+\section{Research Design}
+\label{sec:design}
+
+[To be completed]
+
+\section{Data}
+\label{sec:data}
+
+[To be completed]
+
+\section{Pipeline}
+\label{sec:pipeline}
+
+[To be completed]
+
+% Example figure placeholder
+\begin{figure}[ht]
+    \centering
+    \fbox{\parbox{0.8\textwidth}{\centering\vspace{2cm}[Figure: pipeline overview — to be inserted]\vspace{2cm}}}
+    \caption{Overview of the proposed pipeline.}
+    \label{fig:pipeline}
+\end{figure}
+
+\section{Evaluation Metrics}
+\label{sec:metrics}
+
+[To be completed]
+
+% ============================================================
+\chapter{Results}
+\label{ch:results}
+
+% Results only: what was observed, not why.
+
+\section{[Experiment 1 Name]}
+\label{sec:results-exp1}
+
+[To be completed]
+
+% Example table placeholder
+\begin{table}[ht]
+    \centering
+    \caption{[Experiment 1] results on [dataset].}
+    \label{tab:results-exp1}
+    \begin{tabular}{lcc}
+        \toprule
+        Method & Metric 1 & Metric 2 \\
+        \midrule
+        Baseline & TBD & TBD \\
+        Proposed & TBD & TBD \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+% ============================================================
+\chapter{Discussion}
+\label{ch:discussion}
+
+% Discussion only: why / what it means. No new results here.
+
+The results show [To be completed]. This suggests [To be completed] in relation to RQ-Main.
+
+\section{Limitations}
+\label{sec:limitations}
+
+[To be completed]
+
+% ============================================================
+\chapter{Conclusion}
+\label{ch:conclusion}
+
+This thesis addressed [To be completed]. The main findings were [To be completed].
+
+\section{Future Work}
+\label{sec:future}
+
+[To be completed]
+
+% ============================================================
+\bibliographystyle{apalike}     % change to your institution's required style
+\bibliography{tex/biblio}
+
+\end{document}

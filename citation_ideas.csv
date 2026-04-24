@@ -1,0 +1,4 @@
+BibTeX_key,Authors,Year,Title,Claim_in_thesis,Placement_chapter_section,Original_quote_or_core_statement,Inspiration_for_thesis,Status
+Smith2021,Smith J.,2021,Example Paper Title,Your claim that this paper supports,Chapter 2 / Section 2.1,"Exact quote from the paper that supports the claim","How this connects to your thesis argument",PDF verified
+Jones2019,Jones A. et al.,2019,Another Example Paper,Second claim supported by this work,Chapter 2 / Section 2.2,"Exact quote or core statement extracted from PDF","Thesis-specific interpretation of the finding",PDF missing
+[BibTeXKey],[Author(s)],[Year],[Title],[Your claim],[Chapter / Section],[Paste exact quote after PDF verification],[Your interpretation],[PDF verified / PDF missing]
